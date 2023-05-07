@@ -1,0 +1,26 @@
+/* .jelly-appear {
+    transform: translateX(-100px);
+}
+
+.jelly-appear-active {
+    transform: translateX(0);
+    transition: transform 1s ease-in;
+} */
+
+.jelly-appear, .jelly-enter {
+    opacity: 0;
+}
+
+.jelly-appear-active, .jelly-enter-active {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+}
+
+.jelly-exit {
+    opacity: 1;
+}
+
+.jelly-exit-active {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+}

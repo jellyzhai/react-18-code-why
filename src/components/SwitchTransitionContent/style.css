@@ -1,0 +1,17 @@
+.login-enter {
+    transform: translateX(100%);
+}
+
+.login-enter-active {
+    transform: translateX(0);
+    transition: all 1s ease-in;
+}
+
+.login-exit {
+    transform: translateX(0);
+}
+
+.login-exit-active {
+    transform: translateX(-100%);
+    transition: all 1s ease-out;
+}
